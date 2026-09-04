@@ -37,8 +37,6 @@ flowchart TD
 
 ## Setup
 
-Built to run as a Kaggle/Colab notebook.
-
 **Requirements:**
 - Python 3.10+
 - A Google API key (Gemini access), stored as a Kaggle secret named `GOOGLE_API_KEY` (or set as an environment variable if running elsewhere)
