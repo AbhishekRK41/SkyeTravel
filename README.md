@@ -1,4 +1,5 @@
 # SkyeTravel — AI-Powered Multi-Agent Travel Concierge
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AbhishekRK41/SkyeTravel/blob/main/skyetravel.ipynb)
 
 SkyeTravel is a multi-agent travel planner built on the Google Agent Development Kit (ADK) and Gemini models. It takes trip parameters, researches flights/hotels/attractions with live web search, assembles a full itinerary, and exports it as CSV, Excel, PDF, and PPT.
 
