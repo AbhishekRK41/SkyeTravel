@@ -39,7 +39,7 @@ flowchart TD
 
 **Requirements:**
 - Python 3.10+
-- A Google API key (Gemini access), stored as a Kaggle secret named `GOOGLE_API_KEY` (or set as an environment variable if running elsewhere)
+- A Google API key (Gemini access), set as the environment variable `GOOGLE_API_KEY` (or as a Colab/Kaggle secret)
 
 ```bash
 pip install -q python-pptx reportlab nest-asyncio openpyxl google-adk
@@ -47,12 +47,12 @@ pip install -q python-pptx reportlab nest-asyncio openpyxl google-adk
 
 ## Usage
 
-1. Open `skyetravel.ipynb` in Kaggle or Colab.
+1. Open `skyetravel.ipynb` in Colab (use the badge above) or any Jupyter environment.
 2. Set `GOOGLE_API_KEY` in your notebook secrets/environment.
 3. Set your trip parameters in the config cell.
 4. Run all cells — the agents research and assemble the itinerary, then export it to your chosen formats.
 
-A plain-script version of the pipeline is included as `Code` — consider renaming it to `skyetravel.py` so GitHub applies Python syntax highlighting to it.
+A plain-script version of the same pipeline is available as [`skyetravel.py`](./skyetravel.py).
 
 ## License
 
